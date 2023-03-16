@@ -12,4 +12,6 @@
 
 **Protótipo:**
 
-
+<p align="center">
+<img src="https://github.com/caioandre182/Calculator/blob/main/img/image.png"> 
+</p>
