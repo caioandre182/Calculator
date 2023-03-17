@@ -14,6 +14,7 @@ public class CalculatorController {
 
     @PostMapping(value = "/add")
     public String add(@RequestBody Calculator calculator) {
+
         return service.add(calculator);
     }
 

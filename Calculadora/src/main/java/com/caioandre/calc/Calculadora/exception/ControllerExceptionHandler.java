@@ -1,13 +1,13 @@
 package com.caioandre.calc.Calculadora.exception;
 
 
-import com.caioandre.calc.Calculadora.exception.exceptions.InvalidNumberException;
 import com.caioandre.calc.Calculadora.exception.exceptions.NumberNotFoundException;
 import com.caioandre.calc.Calculadora.exception.response.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.client.HttpClientErrorException;
 
 @RestControllerAdvice
 public class ControllerExceptionHandler {
@@ -18,7 +18,7 @@ public class ControllerExceptionHandler {
         return new ExceptionResponse(e.getMessage(), 404);
     }
 
-    @ExceptionHandler(InvalidNumberException.class)
+    @ExceptionHandler({NumberFormatException.class, HttpClientErrorException.BadRequest.class})
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ExceptionResponse badRequestResponse(Exception e){
         return new ExceptionResponse(e.getMessage(), 400);
