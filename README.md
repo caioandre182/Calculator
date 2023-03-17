@@ -44,7 +44,18 @@ Ter instalado:
 
  Após o download e a extração do projeto, deve navegar pelo prompt de comando, através do comando ```cd````  , ao chegar no diretório:
  
- 1 - 
+ 1 - Entrar na pasta calculadora e no terminal digitar o seguinte comando:
+     ```./gradlew bootRun ```
+     
+     Assim o Backend já estará rodando.
+     
+ 2 - Volte para a raiz do projeto e entre na pasta calculatorfront e no terminal digite:
+     ```npm start```
+     
+     Após executar o comando, irá abrir uma página em seu navegador principal e estará pronto para utilizar a operação.
+     
+  
+  
   
 
 
