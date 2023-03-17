@@ -19,7 +19,7 @@
 --------------------------------------
 --------------------------------------
 
-### Tecnologias
+**Tecnologias:**
   - Java 19
   - Spring Boot 3.0.4
     - Lombok
@@ -27,7 +27,7 @@
   - Node 18.12.1
   - Bootstrap 5.3
   
-  ### Interface
+**Interface:**
   
  <p align="center">
 <img src="https://github.com/caioandre182/Calculator/blob/main/img/final.png" width="500" height="400"> 
