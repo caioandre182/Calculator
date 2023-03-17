@@ -25,6 +25,9 @@ const Calculator = ( ) => {
         });
         const result = await response.text();
         setResult(result);
+        // limpa os campos number1 e number2
+        setNumber1('');
+        setNumber2('');
       };
       
       const handleSubtract = async () => {
@@ -38,6 +41,9 @@ const Calculator = ( ) => {
         });
         const result = await response.text();
         setResult(result);
+        // limpa os campos number1 e number2
+        setNumber1('');
+        setNumber2('');
       };
       
     return (
