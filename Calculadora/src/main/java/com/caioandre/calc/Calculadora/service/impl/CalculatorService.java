@@ -13,7 +13,7 @@ public class CalculatorService implements ICalculatorService {
 
         double result = calculator.getNumber1() + calculator.getNumber2();
 
-        return "O resultado é " + result + ".";
+        return "O resultado é " + result;
     }
 
     public String subtract(Calculator calculator){
@@ -22,7 +22,7 @@ public class CalculatorService implements ICalculatorService {
 
         double result = calculator.getNumber1() - calculator.getNumber2();
 
-        return "O resultado é " + result + ".";
+        return "O resultado é " + result;
     }
 
     private void verifyNullNumber(Calculator calculator){

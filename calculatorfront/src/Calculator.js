@@ -41,18 +41,31 @@ const Calculator = ( ) => {
       };
       
     return (
-        <div>
-          <label>
-            Número 1:
-            <input type="number" value={number1} onChange={handleNumber1Change} />
-          </label>
-          <label>
-            Número 2:
-            <input type="number" value={number2} onChange={handleNumber2Change} />
-          </label>
-          <button onClick={handleSum}>Somar</button>
-          <button onClick={handleSubtract}>Subtrair</button>
-          <label>Resultado: {result}</label>
+        <div class="row">
+            <div>
+                <label class="label">
+                    Campo A:
+                </label>
+                <input type="number" class="input" value={number1} onChange={handleNumber1Change} />
+            </div>
+            
+            <div>
+                <label class="label">
+                    Campo B:
+                </label>
+                <input type="number" class="input" value={number2} onChange={handleNumber2Change} />
+            </div>
+            
+
+            <div>
+                <label class="label-result">{result}</label>
+            </div>
+          
+            <div>
+                <button class="btn1" onClick={handleSum}>Somar</button>
+                <button class="btn2" onClick={handleSubtract}>Subtrair</button>
+            </div>
+
         </div>
       );
 };
