@@ -33,4 +33,19 @@
 <img src="https://github.com/caioandre182/Calculator/blob/main/img/final.png" width="500" height="400"> 
 </p>
 
+
+**Executando o projeto:**
+
+#### Requisitos:
+Ter instalado:
+   - [Java](https://www.oracle.com/br/java/technologies/downloads/)
+   - [Node](https://nodejs.org/en)
+   
+
+ Após o download e a extração do projeto, deve navegar pelo prompt de comando, através do comando ```cd````  , ao chegar no diretório:
+ 
+ 1 - 
+  
+
+
   
